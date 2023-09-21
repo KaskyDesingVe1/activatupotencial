@@ -72,4 +72,19 @@ p,h1,h2,h3,h4,h5{
 	.video iframe, .promocional img{
         max-width: 80vw;
     }
+    .t1 {
+        font-size: 22px;
+    }
+    .t3 {
+        font-size: 18px;
+    }
+    .t5 {
+        font-size: 14px;
+    }
+    .tb {
+        font-size: ;
+    }
+    .p5s{
+        margin-bottom: 10px!important;
+    }
 }
