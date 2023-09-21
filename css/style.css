@@ -9,7 +9,7 @@ p,h1,h2,h3,h4,h5{
 /********Main********/
 .main{
     
-    background-image: url('../img/bg.png');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
 }
     .main .header{
