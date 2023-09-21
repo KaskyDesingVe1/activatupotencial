@@ -1,0 +1,75 @@
+/**********Estilos globales************/
+*{
+    font-family: 'Roboto', Courier, monospace;
+}
+p,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+/********Main********/
+.main{
+    
+    background-image: url('../img/bg.png');
+    background-size: cover;
+}
+    .main .header{
+        background-color: white;
+        padding: 0.75rem 0;
+        box-shadow: 0 0 5px 5px #0000002e;
+    }
+        .main h5{
+            font-style: italic;
+            font-weight: bold!important;
+            color: rgba(0, 0, 0, 0.836);
+            
+        }
+/********Content********/
+.content h1{
+    color: white;
+    font-weight: bold;
+}
+    .content h3{
+        color: white;
+        font-weight: bold;
+    }
+        .content h5{
+            color: white;
+            font-style: italic;
+        }
+        .content2 h5{
+            color: white;
+            font-weight: bold;
+        }
+        .content2 h3{
+            color: white;
+            font-weight: bold;
+        }
+/********Video********/
+.video iframe{
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #0000002e;
+}
+/*******Boton Ws***********/
+.btn-ws{
+    background: linear-gradient(0deg, #3d801e, #63d42f);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: white!important;
+    font-size: 22;
+    border-radius: 10px;
+}
+/*******Promocional***********/
+.promocional{
+    background-color: black;
+    
+}
+    .promocional img{
+        border-radius: 10px;
+    }
+
+
+@media (max-width:576px){
+	.video iframe, .promocional img{
+        max-width: 80vw;
+    }
+}
